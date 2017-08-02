@@ -134,12 +134,15 @@ public class MainActivity extends Activity {
             }
         });
 
-
-        request();
+        if(isLoggedIn())
+          request();
 
 
     }
-
+    public boolean isLoggedIn() {
+        AccessToken accessToken = AccessToken.getCurrentAccessToken();
+        return accessToken != null;
+    }
     private void request() {
         /*info.setText("User ID:  " +
                 AccessToken.getCurrentAccessToken().getUserId());// + "\n" +*/
