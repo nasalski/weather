@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestWeather</string>
+    <string name="facebook_app_id">354074125025138</string>
+    <string name="fb_login_protocol_scheme">fb354074125025138</string>
+    <!--  weather -->
+    <string name="client_id">dj0yJmk9VXF0QU9VeVQ4TGUzJmQ9WVdrOVl6ZEhhbG8xTXpJbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD00NA--</string>
+    <string name="client_secret">e73f0d4800ac51387850eb9b90fe74d2d4fce8e0</string>
+    </resources>
